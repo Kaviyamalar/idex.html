@@ -124,5 +124,17 @@ float:left;
   font-family: 'Montserrat', sans-serif;
 }
 .navbar-customclass {
-    background-color: #11324D;
+    background-color: #368B85;
+}
+.navbar-customclass .navbar-brand,
+.navbar-customclass .navbar-text {
+    color: #343A40;
+}
+.navbar-customclass .navbar-nav .nav-link {
+    color: #343A40;
+}
+
+.navbar-customclass .nav-item.active .nav-link,
+.navbar-customclass .nav-item:hover .nav-link {
+    color: #ffffff;
 }
